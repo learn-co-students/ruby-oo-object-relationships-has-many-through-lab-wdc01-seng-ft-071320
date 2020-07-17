@@ -21,7 +21,6 @@ class Doctor
 
     def patients
         self.appointments.map do |appt|
-            # binding.pry
             appt.patient
         end
     end
